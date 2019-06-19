@@ -10,6 +10,40 @@ pacman {-S --sync}　　　[选项] [软件包]
 pacman {-T --deptest}　　[选项]　[软件包]  
 pacman {-U --upgrade} 　[选项]　<文件>
 
+用法:  pacman {-R --remove} [选项] <软件包>
+选项:
+  -b, --dbpath <路径>  指定另外的数据库位置
+  -c, --cascade        删除软件包及所有依赖于此的软件包
+  -d, --nodeps         跳过依赖关系的版本检查 (-dd 跳过所有检查)
+  -n, --nosave         删除配置文件
+  -p, --print          打印目标而不是执行操作
+  -r, --root <路径>    指定另外的安装根目录
+  -s, --recursive      删除不需要的依赖关系
+                       (-ss 包括单独指定安装的依赖关系)
+  -u, --unneeded       删除不需要的软件包
+  -v, --verbose        显示详细信息
+      --arch <架构>    设定另外的架构
+      --assume-installed <package=version>
+                       添加一个虚拟包用以满足依赖要求
+      --cachedir <dir> 指定另外的软件包缓存位置
+      --color <when>   彩色化输出
+      --config <路径>  指定另外的配置文件
+      --confirm        总是询问确认
+      --dbonly         仅修改数据库条目，而非软件包文件
+      --debug          显示调试信息
+      --disable-download-timeout
+                       下载时用宽松的超时
+      --gpgdir <路径>  设定 GnuPG 的其他主目录
+      --hookdir <目录>  指定另外的钩子位置
+      --logfile <路径> 指定另外的日志文件
+      --noconfirm      不询问确认
+      --noprogressbar  下载文件时不显示进度条
+      --noscriptlet    不执行安装小脚本
+      --print-format <字符串>
+                       指定如何打印目标
+      --sysroot        在一个已挂载的 guest 系统操作（仅 root）
+
+
 安装软件包  
 注意: 软件包通常有很多可选依赖， 它们为软件提供额外功能， 并不强制要求安装它们。 安装软件时, pacman 将会输出它的可选依赖, 但是这个输出不会在 pacman.log中；当你想浏览已安装软件的可选依赖时可以使用pacman -Si ，得到关于可选依赖的简短描述。
 警告: 在Arch下安装软件包时，未更新系统前，不要更新软件包数据库（例如，可能出现某软件包不再出现在官方库）。操作时，应使用pacman -Syu package_name, 而不要使用（pacman -Sy package_name），否则可能会有依赖问题。参见 System maintenance (简体中文)#不支持部分升级 和 BBS#89328.
