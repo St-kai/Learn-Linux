@@ -1,5 +1,15 @@
 # pacman
 ---
+pacman {-h --help}  
+pacman {-V --version}  
+pacman {-D --database} 　　<选项> <软件包>  
+pacman {-F --files}　　　　[选项] [软件包]  
+pacman {-Q --query}     [选项] [软件包]  
+pacman {-R --remove}   [选项]　<软件包>   
+pacman {-S --sync}　　　[选项] [软件包]  
+pacman {-T --deptest}　　[选项]　[软件包]  
+pacman {-U --upgrade} 　[选项]　<文件>
+
 安装软件包  
 注意: 软件包通常有很多可选依赖， 它们为软件提供额外功能， 并不强制要求安装它们。 安装软件时, pacman 将会输出它的可选依赖, 但是这个输出不会在 pacman.log中；当你想浏览已安装软件的可选依赖时可以使用pacman -Si ，得到关于可选依赖的简短描述。
 警告: 在Arch下安装软件包时，未更新系统前，不要更新软件包数据库（例如，可能出现某软件包不再出现在官方库）。操作时，应使用pacman -Syu package_name, 而不要使用（pacman -Sy package_name），否则可能会有依赖问题。参见 System maintenance (简体中文)#不支持部分升级 和 BBS#89328.
