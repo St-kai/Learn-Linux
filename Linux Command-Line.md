@@ -13,15 +13,6 @@
     pacman {-T --deptest}  [选项] [软件包]
     pacman {-U --upgrade}  [选项] <文件>
 
-pacman {-h --help}  
-pacman {-V --version}  
-pacman {-D --database} 　　<选项> <软件包>  
-pacman {-F --files}　　　　[选项] [软件包]  
-pacman {-Q --query}     [选项] [软件包]  
-pacman {-R --remove}   [选项]　<软件包>   
-pacman {-S --sync}　　　[选项] [软件包]  
-pacman {-T --deptest}　　[选项]　[软件包]  
-pacman {-U --upgrade} 　[选项]　<文件>
 
 用法:  pacman {-R --remove} [选项] <软件包>
 选项:
