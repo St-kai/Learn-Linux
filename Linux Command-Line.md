@@ -1,22 +1,22 @@
 # pacman
 ---
 
-用法:  pacman <操作> [...]
+用法:  pacman <操作> [...]  
 操作:
-    pacman {-h --help}
-    pacman {-V --version}
-    pacman {-D --database} <选项> <软件包>  
-    pacman {-F --files}    [选项] [软件包]  
-    pacman {-Q --query}    [选项] [软件包]  
-    pacman {-R --remove}   [选项] <软件包>  
-    pacman {-S --sync}     [选项] [软件包]  
-    pacman {-T --deptest}  [选项] [软件包]  
-    pacman {-U --upgrade}  [选项] <文件>  
+    pacman&nbsp;&nbsp;&nbsp;{-h --help}  
+    pacman&nbsp;&nbsp;&nbsp;{-V --version}  
+    pacman&nbsp;&nbsp;&nbsp;{-D --database}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<选项>&nbsp;&nbsp;&nbsp;<软件包>  
+    pacman&nbsp;&nbsp;&nbsp;{-F --files}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[选项]&nbsp;&nbsp;&nbsp;[软件包]  
+    pacman&nbsp;&nbsp;&nbsp;{-Q --query}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[选项]&nbsp;&nbsp;&nbsp;[软件包]  
+    pacman&nbsp;&nbsp;&nbsp;{-R --remove}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[选项]&nbsp;&nbsp;&nbsp;<软件包>  
+    pacman&nbsp;&nbsp;&nbsp;{-S --sync}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[选项]&nbsp;&nbsp;&nbsp;[软件包]  
+    pacman&nbsp;&nbsp;&nbsp;{-T --deptest}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[选项]&nbsp;&nbsp;&nbsp;[软件包]  
+    pacman&nbsp;&nbsp;&nbsp;{-U --upgrade}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[选项]&nbsp;&nbsp;&nbsp;<文件>  
 
 
 用法:  pacman {-R --remove} [选项] <软件包>
 选项:
-  -b, --dbpath <路径>  指定另外的数据库位置  
+-b, --dbpath <路径>  指定另外的数据库位置  
   -c, --cascade        删除软件包及所有依赖于此的软件包  
   -d, --nodeps         跳过依赖关系的版本检查 (-dd 跳过所有检查)  
   -n, --nosave         删除配置文件  
