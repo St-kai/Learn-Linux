@@ -1,0 +1,50 @@
+[Hotkey]
+# Enumerate when press trigger key repeatedly
+EnumerateWithTriggerKeys=True
+# Enumerate Input Method Forward
+EnumerateForwardKeys=
+# Enumerate Input Method Backward
+EnumerateBackwardKeys=
+# Enumerate Input Method Group Forward
+EnumerateGroupForwardKeys=
+# Enumerate Input Method Group Backward
+EnumerateGroupBackwardKeys=
+# Activate Input Method
+ActivateKeys=
+# Deactivate Input Method
+DeactivateKeys=
+# Default Previous page
+PrevPage=
+# Default Next page
+NextPage=
+# Default Previous Candidate
+PrevCandidate=
+# Default Next Candidate
+NextCandidate=
+# Toggle embedded preedit
+TogglePreedit=
+
+[Hotkey/TriggerKeys]
+0=Super+space
+
+[Hotkey/AltTriggerKeys]
+0=Shift+Shift_L
+
+[Behavior]
+# Active By Default
+ActiveByDefault=False
+# Share Input State
+ShareInputState=No
+# Show Input Method Information when switch input method
+ShowInputMethodInformation=True
+# Show Input Method Information when changing focus
+showInputMethodInformationWhenFocusIn=False
+# Default page size
+DefaultPageSize=5
+# Force Enabled Addons
+EnabledAddons=
+# Force Disabled Addons
+DisabledAddons=
+# Preload input method to be used by default
+PreloadInputMethod=True
+
