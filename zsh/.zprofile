@@ -9,6 +9,6 @@ export npm_config_prefix="$HOME/.local"
 export IDEA_JDK=/opt/intellij-idea-ultimate-edition/jbr
 export WEBIDE_JDK=/opt/intellij-idea-ultimate-edition/jbr
 export PYCHARM_JDK=/opt/intellij-idea-ultimate-edition/jbr
-export CL_JDK=/opt/intellij-idea-ultimate-edition/jbr
+export CLION_JDK=/opt/intellij-idea-ultimate-edition/jbr
 export DATAGRIP_JDK=/opt/intellij-idea-ultimate-edition/jbr
 export GOLAND_JDK=/opt/intellij-idea-ultimate-edition/jbr
